@@ -1,0 +1,119 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #fff;
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-style: italic;
+    color: #666;
+}
+
+/* Projects */
+#projects {
+    padding: 40px 0;
+}
+
+#projects h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.project-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; /* Add a subtle hover effect */
+}
+
+.project-item:hover {
+    transform: translateY(-5px);
+}
+
+.project-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.project-item h3 {
+    margin-top: 0;
+    font-size: 1.3em;
+}
+
+/* About */
+#about {
+    background-color: #fff;
+    padding: 40px 0;
+    border-bottom: 1px solid #eee;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.social-links {
+    margin-bottom: 15px;
+}
+
+.social-links img {
+    width: 24px;
+    height: 24px;
+    margin: 0 10px;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+
+.social-links img:hover {
+    opacity: 1;
+}
+
+.contact-info a {
+    color: #fff;
+}
+
+/* Responsive Design (adjust breakpoints as needed) */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+    .container {
+        padding: 10px;
+    }
+}
