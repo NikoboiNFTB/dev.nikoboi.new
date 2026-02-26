@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+
+  <defs>
+    <linearGradient id="crossGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#001836"/>
+      <stop offset="100%" stop-color="#0046a2"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="400" height="400" fill="url(#crossGradient)" />
+
+  <rect x="0" y="0" width="160" height="160" fill="#ffffff" />
+  <rect x="240" y="0" width="160" height="160" fill="#ffffff" />
+  <rect x="0" y="240" width="160" height="160" fill="#ffffff" />
+  <rect x="240" y="240" width="160" height="160" fill="#ffffff" />
+
+</svg>
