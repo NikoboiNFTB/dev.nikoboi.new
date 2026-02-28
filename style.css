@@ -13,10 +13,10 @@
     --primary-light: #007bff;
     --primary-dark: #004085;
     
-    --bg-color: #0d1117;
-    --container-bg: #161b22;
-    --card-bg: #21262d;
-    --nav-bg: rgba(13, 17, 23, 0.8);
+    --bg-color: #000000;
+    --container-bg: linear-gradient(to bottom right, #111111, #333333);
+    --card-bg: linear-gradient(to bottom right, #001836, #0046a2);
+    --nav-bg: linear-gradient(to bottom right, rgba(17, 17, 17, 0.9), rgba(51, 51, 51, 0.9));
     
     --text-color: #c9d1d9;
     --text-bright: #ffffff;
@@ -48,7 +48,7 @@ body {
     position: sticky;
     top: 0;
     z-index: 1000;
-    background-color: var(--nav-bg);
+    background: var(--nav-bg);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     border-bottom: var(--border);
@@ -161,11 +161,13 @@ p a:hover {
 }
 
 .link-button {
+    position: relative;
+    z-index: 1;
     display: flex;
     align-items: center;
     gap: 12px;
     padding: 16px;
-    background-color: var(--container-bg);
+    background: transparent;
     border: var(--border);
     border-radius: var(--border-radius);
     text-decoration: none;
@@ -173,12 +175,42 @@ p a:hover {
     font-size: 0.95rem;
     font-weight: 500;
     transition: var(--transition);
+    transform: translateZ(0);
+    overflow: hidden;
+}
+
+.link-button::before,
+.link-button::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    z-index: -1;
+    transition: opacity 0.3s ease-in-out;
+    pointer-events: none;
+}
+
+.link-button::before {
+    background: var(--container-bg);
+    opacity: 1;
+}
+
+.link-button:hover::before {
+    opacity: 0;
+}
+
+.link-button::after {
+    background: var(--card-bg);
+    opacity: 0;
+}
+
+.link-button:hover::after {
+    opacity: 1;
 }
 
 .link-button:hover {
-    background-color: var(--card-bg);
     border-color: #8b949e;
-    transform: translateY(-2px);
+    transform: scale(1.02);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
     color: var(--text-bright);
 }
@@ -195,7 +227,7 @@ p a:hover {
 
 /* Footer */
 .main-footer {
-    background-color: var(--container-bg);
+    background: var(--container-bg);
     border-top: var(--border);
     padding: 64px 24px;
     width: 100%;
@@ -250,7 +282,7 @@ p a:hover {
 
 .footer-links a:hover {
     color: var(--text-bright);
-    transform: translateX(4px);
+    transform: scale(1.05);
 }
 
 .footer-links .icon {
