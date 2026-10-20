@@ -1,0 +1,202 @@
+{
+	"sections": [
+		{
+			"title": "Websites",
+			"links": [
+				{
+					"name": "Bingo",
+					"url": "https://bingo.nikoboi.dev/",
+					"icon": "https://assets.nikoboi.dev/nikoboi/n/squircle/gradient/ribbon.svg",
+					"alt": "Fin"
+				}
+			]
+		},
+		{
+			"title": "Firefox Add-ons",
+			"links": [
+				{
+					"name": "YouTube DeSlop",
+					"url": "https://addons.mozilla.org/firefox/addon/youtube-deslop/",
+					"icon": "https://assets.nikoboi.dev/custom/deslop.svg",
+					"alt": "Moz",
+					"newTab": true
+				},
+				{
+					"name": "Search on Songsterr",
+					"url": "https://addons.mozilla.org/firefox/addon/search-on-songsterr/",
+					"icon": "https://assets.nikoboi.dev/favicon/songsterr.com/apple-iphone-retina-180px-BzU4hLsi.png",
+					"alt": "Moz",
+					"newTab": true
+				},
+				{
+					"name": "Search on Metallum",
+					"url": "https://addons.mozilla.org/firefox/addon/search-on-metallum/",
+					"icon": "https://assets.nikoboi.dev/favicon/metal-archives.com/favicon-GIMP-upscaled.ico",
+					"alt": "Moz",
+					"classes": ["rounded"],
+					"newTab": true
+				},
+				{
+					"name": "Search on GTACars",
+					"url": "https://addons.mozilla.org/firefox/addon/search-on-gtacars/",
+					"icon": "https://assets.nikoboi.dev/favicon/gtacars.net/favicon.png",
+					"alt": "Moz",
+					"newTab": true
+				},
+				{
+					"name": "Snapchat Web FF",
+					"url": "https://addons.mozilla.org/firefox/addon/snapchat-web-on-ff/",
+					"icon": "https://assets.nikoboi.dev/custom/snapchat-ff.png",
+					"alt": "Moz",
+					"classes": ["round"],
+					"newTab": true
+				}
+			]
+		},
+		{
+			"title": "Userscripts",
+			"description": {
+				"text": "How does one identify a safe userscript?",
+				"link": {
+					"id": "safety",
+					"text": "Userscript Safety Guide",
+					"url": "/safety/"
+				}
+			},
+			"links": [
+				{
+					"name": "YouTube DeSlop",
+					"url": "https://github.com/NikoboiNFTB/DeSlop#deslop",
+					"icon": "https://assets.nikoboi.dev/custom/deslop.svg",
+					"alt": "DeSlop",
+					"newTab": true
+				},
+				{
+					"name": "YouTube Tweaks",
+					"url": "https://github.com/NikoboiNFTB/YouTube-Tweaks#youtube-tweaks",
+					"icon": "https://assets.nikoboi.dev/wikimedia/YouTube_play_button_icon_(2013–2017).svg",
+					"alt": "YouTube",
+					"newTab": true
+				},
+				{
+					"name": "GitHub Tools",
+					"url": "https://github.com/NikoboiNFTB/GitHub-Tools#github-tools",
+					"icon": "https://assets.nikoboi.dev/wikimedia/GitHub_Invertocat_Logo.svg",
+					"alt": "GitHub",
+					"classes": ["filter"],
+					"newTab": true
+				},
+				{
+					"name": "IMDb RePo",
+					"url": "https://github.com/NikoboiNFTB/IMDb-RePo#-imdb-repo-simple--fast-redirect-portal",
+					"icon": "https://assets.nikoboi.dev/wikimedia/IMDb_Logo_Square.svg",
+					"alt": "IMDb",
+					"classes": ["rounded"],
+					"newTab": true
+				},
+				{
+					"name": "TMDB RePo",
+					"url": "https://github.com/NikoboiNFTB/TMDB-RePo#tmdb-repo-simple--fast-redirect-portal",
+					"icon": "https://assets.nikoboi.dev/wikimedia/Asset 4.svg",
+					"alt": "TMDB",
+					"newTab": true
+				},
+				{
+					"name": "Songsterr Tweaks",
+					"url": "https://github.com/NikoboiNFTB/Songsterr-Tweaks#songsterr-tweaks",
+					"icon": "https://assets.nikoboi.dev/favicon/songsterr.com/apple-iphone-retina-180px-BzU4hLsi.png",
+					"alt": "Songsterr",
+					"newTab": true
+				},
+				{
+					"name": "ChatGPT Tweaks",
+					"url": "https://github.com/NikoboiNFTB/ChatGPT-Tweaks#chatgpt-tweaks",
+					"icon": "https://assets.nikoboi.dev/wikimedia/ChatGPT_logo_Square.svg",
+					"alt": "OpenAI",
+					"newTab": true
+				},
+				{
+					"name": "Metallum Tweaks",
+					"url": "https://github.com/NikoboiNFTB/Metal-Archives-Tweaks#metal-archives-tweaks",
+					"icon": "https://assets.nikoboi.dev/favicon/metal-archives.com/favicon-GIMP-upscaled.ico",
+					"alt": "Metallum",
+					"newTab": true
+				}
+			]
+		},
+		{
+			"title": "Minecraft",
+			"links": [
+				{
+					"name": "Modrinth",
+					"url": "https://modrinth.com/user/Nikoboi",
+					"icon": "https://assets.nikoboi.dev/wikimedia/Modrinth_Logo.webp",
+					"alt": "Modrinth",
+					"newTab": true
+				}
+			]
+		},
+		{
+			"title": "Socials",
+			"links": [
+				{
+					"name": "GitHub",
+					"url": "https://github.com/NikoboiNFTB/",
+					"icon": "https://assets.nikoboi.dev/wikimedia/GitHub_Invertocat_Logo.svg",
+					"alt": "GitHub",
+					"classes": ["filter"],
+					"newTab": true
+				},
+				{
+					"name": "Instagram",
+					"url": "https://instagram.com/nikoboi",
+					"icon": "https://assets.nikoboi.dev/wikimedia/Instagram_logo_2022.svg",
+					"alt": "Instagram",
+					"newTab": true
+				},
+				{
+					"name": "YouTube",
+					"url": "https://youtube.com/@NikoboiNFTB",
+					"icon": "https://assets.nikoboi.dev/wikimedia/YouTube_play_button_icon_(2013–2017).svg",
+					"alt": "YouTube",
+					"newTab": true
+				},
+				{
+					"name": "Discord",
+					"url": "https://discord.gg/C3fhKRtrh7",
+					"icon": "https://assets.nikoboi.dev/favicon/discord.com/6266bc493fb42d4e27bb8393_847541504914fd33810e70a0ea73177e.ico",
+					"alt": "Discord",
+					"newTab": true
+				},
+				{
+					"name": "r/deslop",
+					"url": "https://www.reddit.com/r/deslop/",
+					"icon": "https://assets.nikoboi.dev/favicon/reddit.com/192x192.png",
+					"alt": "Reddit",
+					"newTab": true
+				}
+			]
+		},
+		{
+			"title": "Mail",
+			"links": [
+				{
+					"name": "Contact",
+					"url": "mailto:contact@nikoboi.dev",
+					"icon": "https://assets.nikoboi.dev/fontawesome-free-7.2.0-web/svgs-full/regular/envelope.svg",
+					"alt": "Mail",
+					"classes": ["filter"],
+					"newTab": true
+				},
+				{
+					"name": "Support",
+					"url": "mailto:support@nikoboi.dev",
+					"icon": "https://assets.nikoboi.dev/fontawesome-free-7.2.0-web/svgs-full/regular/envelope.svg",
+					"alt": "Mail",
+					"classes": ["filter"],
+					"newTab": true
+				}
+			]
+		}
+	]
+}
