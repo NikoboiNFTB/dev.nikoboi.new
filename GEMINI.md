@@ -25,8 +25,8 @@ This is a **purely static project**. There is no build or compilation step.
 
 - Open `index.html` directly in any modern web browser.
 - Alternatively, serve locally using a simple web server:
-  - **Python:** `python3 -m http.server 8000`
-  - **Node.js (serve):** `npx serve .`
+    - **Python:** `python3 -m http.server 8000`
+    - **Node.js (serve):** `npx serve .`
 
 ### Deployment
 
